@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+
+body{ 
+    background-image: linear-gradient(to left, rgb(19, 15, 240), rgb(0, 7, 63));
+}
+
+.box {
+    background-image: linear-gradient(to bottom,rgb(1, 0, 177), rgb(1, 0, 147));
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10% 20% 10% 20% ;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.tittle {
+    background-image: linear-gradient(to bottom, rgb(1, 6, 49),rgb(1, 0, 177));
+    color: white;
+    width: 100%;
+    font-size: 2rem;
+    display: inline-flex;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+}
+h1 {
+    margin: 10px 40% 10px 40%;
+}
+.box-valores {
+    font-size: 7rem;
+    
+    align-self: center;
+    
+}
+.box-btns {
+    background-color: aqua;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin: 1rem;
+    border-radius: inherit;
+}
+
+.btn {
+    background-color: rgb(1, 0, 147);
+    color: white;
+    font-size: 1.3rem;
+    display: grid;
+    align-content: center;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px  ;
+}
