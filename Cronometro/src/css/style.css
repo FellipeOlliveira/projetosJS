@@ -34,7 +34,7 @@ h1 {
 }
 .box-valores {
     font-size: 7rem;
-    
+    display: flex;
     align-self: center;
     
 }

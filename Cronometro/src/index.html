@@ -9,12 +9,19 @@
 <body>
     <div class="box">
         <div class="tittle"><h1>Cronometro</h1></div>
-        <div  class="box-valores"><div id="valor">0</div><div class="valor"></div></div>
+        <div  class="box-valores">
+            <div id="hrs">0</div>
+            <div>:</div>
+            <div id="min">00</div>
+            <div>:</div>
+            <div id="sec">00</div>
+        <div class="valor"></div></div>
         <div class="box-btns">
-            <button class="btn" id="start">Start</button>
-            <button class="btn" id="stop">Stop</button>
-            <button class="btn" id="reset">Reset</button>
+            <button class="btn" id="start" onclick="ignition()">Start</button>
+            <button class="btn" id="stop" onclick="breaks()">Stop</button>
+            <button class="btn" id="reset" onclick="reverb()">Reset</button>
         </div>
     </div>
+    <script src="./js/script.js"></script>
 </body>
 </html>
